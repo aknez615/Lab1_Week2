@@ -4,9 +4,11 @@ using UnityEngine;
 
 namespace Lab1
 {
-    [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/SpawnScriptableObject")]
+    [CreateAssetMenu(fileName = "NewChessPiece", menuName = "Chess/ChessPiece")]
     public class ChessPieces : ScriptableObject
     {
-        public string prefab;
+        public string pieceName;
+        public Sprite chessSprite;
+        public GameObject piecePrefab;
     }
 }
